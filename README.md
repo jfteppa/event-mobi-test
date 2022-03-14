@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# EventMobi Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Testing Username
+gamozolabs
+
+## Limit requests by Anonymous User
+In the file `src/components/gists/list-item.js` 
+there is a if logic commented out to only request
+the fork information if the id of the gists is `bef74c8aefc295e591514d97726d754e` which has several forks
+
+## Install the project
+using the command line and in the project directory, please run first `npm install` I used nodejs version `v16.14.0` and npm version `8.3.1`
 
 ## Available Scripts
 
